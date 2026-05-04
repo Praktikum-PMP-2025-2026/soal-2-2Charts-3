@@ -1,3 +1,12 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2026/2027
+ *  Modul               : 04 - Dynamic Structures
+ *  Hari dan Tanggal    : Senin, 4 May 2026
+ *  Nama (NIM)          : Arvin Fauzan Badri (13224072)
+ *  Nama File           : soal2.c
+ *  Deskripsi           : Soal 2. Input 2 linked list terurut menaik, 
+ *                        gabungkan & output terurut menaik juga
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +22,6 @@ typedef struct PQ_Node {
  * tail -> push  (depan)
  * 
  * terjamin terurut menaik dari head (belakang) ke tail (depan)
- * 
  */
 typedef struct Priority_Queue {
     PQ_Node *head;
